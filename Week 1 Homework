@@ -1,0 +1,11 @@
+# Simple Python program to multiply two numbers and print the result
+
+# Define the numbers
+a = 5
+b = 10
+
+# Multiply the numbers
+result = a * b
+
+# Print the result
+print("The result of multiplying", a, "and", b, "is:", result)
