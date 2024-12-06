@@ -1,0 +1,45 @@
+# Comprehensive Stock Analysis Tool: Price Movement, Technical Indicators, and Correlation Heatmap
+
+## Overview
+The **Comprehensive Stock Analysis Tool** is an interactive dashboard built with Python to help investors and financial analysts analyze stock performance. It combines stock price movements, technical indicators, and correlation analysis into a single platform, offering a holistic view of market trends and relationships.
+
+---
+
+## Features
+- **Stock Data Fetching**: Retrieve historical stock price data for multiple tickers using `yfinance`.
+- **Price Movement Visualization**: Plot stock price trends over time.
+- **Technical Indicators**:
+  - Simple Moving Average (SMA)
+  - Exponential Moving Average (EMA)
+  - Relative Strength Index (RSI)
+  - Bollinger Bands
+- **Correlation Heatmap**: Calculate and visualize the correlations between selected stocks.
+- **Interactive User Interface**: Built with `Streamlit` for real-time analysis and visualization.
+- **Data Export**: Save analyzed data (e.g., historical prices and technical indicators) in CSV format.
+
+---
+
+## Technology Stack
+- **Backend**: Python
+- **Libraries**:
+  - `pandas` for data manipulation
+  - `numpy` for numerical calculations
+  - `yfinance` for fetching stock market data
+  - `matplotlib` and `seaborn` for static visualizations
+  - `streamlit` for building the interactive UI
+  - `plotly` (optional) for interactive and dynamic charts
+- **Version Control**: GitHub
+
+---
+
+## Installation
+
+### Prerequisites
+- Python 3.8 or later
+- pip (Python package manager)
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Stock-Analysis-Tool.git
+   cd Stock-Analysis-Tool
